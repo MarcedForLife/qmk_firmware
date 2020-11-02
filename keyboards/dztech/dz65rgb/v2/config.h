@@ -32,6 +32,9 @@
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
 
+/* Tap & hold configuration */
+#define TAPPING_TERM 100
+
 #ifdef RGB_MATRIX_ENABLE
 #    define RGB_MATRIX_LED_PROCESS_LIMIT 4
 #    define RGB_MATRIX_LED_FLUSH_LIMIT 26
