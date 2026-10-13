@@ -2,6 +2,8 @@
 
 /* Tap & hold configuration */
 #define TAPPING_TERM 200
+#define QUICK_TAP_TERM 0 // Tap then hold gives the hold action, never auto-repeat of the tap
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
 
 /* Carried over from the 2020 keyboard config, upstream ships 3 */
 #undef DEBOUNCE
